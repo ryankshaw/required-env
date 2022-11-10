@@ -1,6 +1,6 @@
 {
-  "name": "required-env",
-  "version": "1.0.0",
+  "name": "required-env-var",
+  "version": "1.0.1",
   "description": "tiny helper to ensure environment variable is set and return it",
   "main": "index.js",
   "engines": {
