@@ -1,6 +1,6 @@
-import { describe, it } from 'node:test'
-import assert from 'node:assert'
-import requiredEnv from './index.js'
+const { describe, it } = require('node:test')
+const assert = require('node:assert')
+const requiredEnv = require('.')
 
 describe('requiredEnv', () => {
   it('should find a set env var', () => {

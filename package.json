@@ -1,13 +1,11 @@
 {
   "name": "required-env-var",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "tiny helper to ensure environment variable is set and return it",
   "main": "index",
-  "typings": "index",
   "engines": {
     "node": ">=16"
   },
-  "type": "module",
   "scripts": {
     "test": "SOME_ENVIRONMENT_VARIABLE=foo node --test tests.js",
     "generate-types": "npx -p typescript tsc index.js --declaration --allowJs --emitDeclarationOnly"
