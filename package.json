@@ -1,0 +1,15 @@
+{
+  "name": "required-env",
+  "version": "1.0.0",
+  "description": "tiny helper to ensure environment variable is set and return it",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "SOME_ENVIRONMENT_VARIABLE=foo node --test tests.js"
+  },
+  "author": "Ryan Shaw",
+  "license": "MIT"
+}
